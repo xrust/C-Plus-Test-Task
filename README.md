@@ -1,7 +1,7 @@
 # C-Plus-Test-Task
 Purpose: Create a client-server application for Windows.
 
-Algorithm: 
+##Algorithm: 
 
 • Clients send to the server random integer numbers from 0 to 1023.
 
@@ -13,7 +13,7 @@ Algorithm:
 
 • Every N seconds the server makes a dump - it stores all numbers from the container into a file in the binary format
 
-Details: 
+##Details: 
 
 • User has to be able to normally stop clients and server (for example, using ESC button)
 
@@ -23,7 +23,7 @@ Details:
 
 • When developing, you must use the Boost Asio library 
 
-Notes: 
+##Notes: 
 
 • Consider to develop this task as a production-like code. We will pay attention not only on code correctness but also on code quality
 
