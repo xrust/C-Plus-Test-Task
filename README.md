@@ -13,12 +13,18 @@ Algorithm:
 
 • Every N seconds the server makes a dump - it stores all numbers from the container into a file in the binary format
 
-Details:
+Details: 
+
 • User has to be able to normally stop clients and server (for example, using ESC button)
+
 • Server has to make a dump in the separate thread - not in the thread(s) which is used for communication with clients
+
 • Output all the processes into console and the application's log file
+
 • When developing, you must use the Boost Asio library 
 
-Notes:
+Notes: 
+
 • Consider to develop this task as a production-like code. We will pay attention not only on code correctness but also on code quality
+
 • For tests purposes run 1 server and about 10 clients. Keep them working for 10 -20 minutes.
