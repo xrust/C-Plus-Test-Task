@@ -28,3 +28,7 @@ Purpose: Create a client-server application for Windows.
 • Consider to develop this task as a production-like code. We will pay attention not only on code correctness but also on code quality
 
 • For tests purposes run 1 server and about 10 clients. Keep them working for 10 -20 minutes.
+
+### Assembly notes
+
+• To Compile, install latest Boost as NuGet Package
